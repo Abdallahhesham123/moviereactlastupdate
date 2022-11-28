@@ -1,0 +1,39 @@
+@import "../../index.scss";
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+.login_home{
+
+    background-image: url(../../Assets/images/login.jpg);
+    background-size: 100% 100%;
+    background-position: center center;
+    height:100vh;
+   
+}
+.login_home {
+    padding: 1px;
+h2{
+    background-color: rgba(36, 77, 77,0.6);
+    border-radius: 10px;
+    border:2px solid #222;
+    width: 50%;
+    margin: auto;
+    font: {
+        
+        family:'Dancing Script', cursive;
+
+        size:50px;
+    }
+
+}
+button[type=submit]{
+
+    font: {
+        
+        family:'Dancing Script', cursive;
+
+        size:22px;
+    }
+}
+color:#fff;
+}
+
+

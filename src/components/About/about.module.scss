@@ -1,0 +1,127 @@
+.img_container{
+
+    width:100%;
+    margin:70px  auto  0!important;
+    position: relative;
+    // padding: 0 50px 0 0;
+    overflow: hidden;
+
+    img{
+ 
+        margin: auto;
+        /* padding: 30px; */
+        position: relative;
+        border-radius: 7px;
+        }
+
+    .overlay {
+        width: 75%;
+        height: 100%;
+        position: absolute;
+        top:100%;
+        left:0;
+        right: 0;
+        bottom: 0;
+        background-color: #323131;
+        opacity: 0.7;
+        transition: top 0.5s;
+        border-radius: 7px;
+        ul{
+
+            list-style: none;
+            //  background-color: #ff305b;
+            display: flex; 
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            width: 100%;
+            transform: translate(-10%);
+
+
+        li{
+
+            a{
+                  margin-left: 10px;
+                    color: #fff;
+                    font-size:14px;
+                    padding: 10px;
+                    transition: all 0.5s;
+
+                    &:hover{
+
+                        color: #ff305b;
+                        background-color:#fff;
+                        border-radius: 50%;
+                    }
+              
+            }
+
+        }
+        }
+
+       
+       
+    }
+
+    &:hover .overlay{
+        top:0;
+    }
+    
+    }
+
+    .img_caption{
+        width: 60%;
+      margin-top: 70px;
+          /* background-color: #ff305b; */
+
+          h2{
+            color:rgb(196, 137, 137);
+            font-size: 34px;
+            font-family: "Source Sans Pro", sans-serif;
+            text-transform: uppercase;
+            margin-bottom: 10px;
+            span{
+                color:#ff305b;
+                font-size: 34px;
+                font-family: "Source Sans Pro", sans-serif;
+                margin-right: 5px;
+            }
+        }
+
+        p{
+
+            font-weight: 700;
+            line-height: 30px;
+            color: rgb(194, 192, 192);
+            font-size: 14px;
+            font-family: "Roboto", sans-serif;
+            padding-bottom: 15px;
+            border-bottom: 1px dashed rgb(85, 85, 85);
+        }
+        ul{
+            list-style: none;
+            display: flex;
+            justify-content:space-around;
+            margin: 0;
+            padding: 0;
+            flex-wrap: wrap;
+            // background-color: #323131;
+            li{
+                // margin:10px ;
+                font-size: 14px;
+                // background-color: #ff305b;
+                width: 50%;
+                padding: 10px;
+                margin: 15px 0;
+                a{
+                    width: 50%;
+                    color: chocolate;
+                }
+               
+
+
+            }
+        }
+
+
+        }

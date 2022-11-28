@@ -1,0 +1,156 @@
+@import "../../index.scss";
+
+
+
+.navbar_bg{
+
+    background-image: linear-gradient(to right, #09203F , #537895);
+   
+   position: relative;
+                    ul{
+                        li{
+                            @extend %center;
+                            a{
+                                color: #fff !important;
+                                text-decoration: none;
+                            }
+                            ul{
+                                position: absolute;
+                                top: 50%;
+                                left: 50%;
+                                transform: translate(-50% ,5%);
+                                background-color: #537895;
+                            
+                              
+                                li{
+
+                                    &:hover a{
+                                        color: #000 !important;
+                                        border-radius: 5px;
+                                    }
+                                    a{
+                                        color:$fontColor !important;
+                                        text-decoration: none;
+                                        margin: 5px;
+                                        
+
+
+                                    }
+ 
+                                    
+      
+                                    
+                                }
+                            }
+                        }
+                    }
+              }
+
+.active{
+    background-image: linear-gradient(to right, #614385 , #516395);
+
+    position: relative;
+    ul{
+        li{
+            @extend %center;
+            a{
+                color: #fff !important;
+                text-decoration: none;
+            }
+            ul{
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50% ,5%);
+                background-color: #537895;
+            
+              
+                li{
+
+                    &:hover a{
+                        color: #000 !important;
+                        border-radius: 5px;
+                    }
+                    a{
+                        color:$fontColor !important;
+                        text-decoration: none;
+                        margin: 5px;
+                        
+
+
+                    }
+
+                    
+
+                    
+                }
+            }
+        }
+    }
+}
+
+    @media screen and (max-width:850px){
+    
+        .none{
+
+            display: none;
+        }
+}
+
+
+.search_list{
+
+    position: absolute;
+    top:105%;
+    left:70%;
+    transform: translate(-110%);
+    max-height: 500px;
+    overflow-y: scroll;
+    z-index: 100;
+    .search_list_item{
+
+        background-color: #083465;
+        padding: 0.7rem;
+        border-bottom: 1px solid #000;
+        color:#fff;
+        cursor: pointer;
+        transition: all 1s ease;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &:hover{
+
+            background-color: #1f1f1f;
+
+        }
+        .img_container{
+            max-width: 20%;
+            text-align: center;
+            img{
+                width: 40px;
+                height: 40px;
+                border-radius: 50%;
+
+            }
+        }
+        .search_item_info{
+            max-width: 70%;
+            text-align: end;
+            h3{
+                font-size: 19px;
+                color:#f44336;
+                font-weight: 600;
+            }
+            p{
+                color: #f59e0b;
+                font-size: 1rem;
+                margin-top: 0.5rem;
+                opacity: 0.7;
+            }
+
+        }
+
+
+    }
+
+}

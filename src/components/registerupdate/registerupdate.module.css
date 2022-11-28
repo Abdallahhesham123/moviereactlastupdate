@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+* {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none !important;
+  text-transform: capitalize;
+}
+
+:root {
+  --primary-color: #22254b;
+  --secondary-color: #373b69;
+  --main-color: #d3ad7f;
+  --black: #13131a;
+  --bg: #010103;
+  --border: .1rem solid rgba(255, 255, 255, .3);
+  --colorWight:#fff;
+}
+
+body {
+  min-height: 100vh;
+  flex-wrap: wrap;
+  background-color: var(--primary-color) !important;
+  color: var(--colorWight) !important;
+}
+
+.register_home {
+  background-image: url(../../Assets/images/register.jpg);
+  background-size: 100% 100%;
+  background-position: center center;
+}
+
+.register_home {
+  padding: 1px;
+  overflow: hidden;
+  color: #fff;
+}
+.register_home h2 {
+  background-color: rgba(36, 77, 77, 0.6);
+  border-radius: 10px;
+  border: 2px solid #222;
+  width: 50%;
+  margin: auto;
+  font-family: "Dancing Script", cursive;
+  font-size: 50px;
+}
+.register_home button[type=submit] {
+  font-family: "Dancing Script", cursive;
+  font-size: 22px;
+}
+
+.onscreen {
+  display: block;
+}
+
+.offscreen {
+  display: none;
+}
+
+.disabled {
+  background-color: #f44336 !important;
+  color: #fff;
+}
+
+.enabled {
+  background-color: #1ABC9C !important;
+  color: #fff;
+}/*# sourceMappingURL=registerupdate.module.css.map */

@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300&display=swap');
+
+$bgColor:#131722;
+$lightBgColor:#24baef;
+$bgTransparent:rgba(36,186,239,.6) ;
+$fontColor:#fff;
+$borderColor:#a8a8a83d;
+$borderHeight:1px;
+$secondFontColor:#949cb0;
+
+%center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:0 10px ;
+}
+%column{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none !important;
+    text-transform: capitalize;
+ 
+}
+
+:root {
+    --primary-color: #22254b;
+    --secondary-color: #373b69;
+    --main-color: #d3ad7f;
+    --black: #13131a;
+    --bg: #010103;
+    --border: .1rem solid rgba(255, 255, 255, .3);
+    --colorWight:#fff;
+}
+
+
+body {
+
+    min-height: 100vh;
+    flex-wrap: wrap;
+    background-color: var(--primary-color) !important;
+    color: var(--colorWight)!important;
+}
+

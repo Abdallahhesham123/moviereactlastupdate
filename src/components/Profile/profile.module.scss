@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+.profile{
+
+    background-color: #22c55e;
+    span{
+        color:black !important;
+        font: {
+        
+            
+            size:30px;
+            weight: 900;
+        }
+           
+            }
+}
+
+.text{
+    color:#0075ff !important;
+    margin-bottom: 30px;
+    font: {
+        
+        family:'Dancing Script', cursive !important;
+        size:30px;
+        weight: 900;
+      
+    }
+   
+}
+.header{
+
+    color: #0d69d5;
+    background-color: aliceblue;
+    padding: 15px;
+    border-radius: 15px;
+    margin:0px 15px 50px;
+    
+    
+    font: {
+        
+        family:'Dancing Script', cursive;
+        size:50px;
+        weight: 900;
+    }
+
+}

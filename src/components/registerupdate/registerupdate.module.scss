@@ -1,0 +1,60 @@
+@import "../../index.scss";
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+.register_home{
+
+    background-image: url(../../Assets/images/register.jpg);
+    background-size: 100% 100%;
+    background-position: center center;
+    // height:calc(100vh - 15vh);
+   
+}
+.register_home {
+    padding: 1px;
+    overflow: hidden;
+h2{
+    background-color: rgba(36, 77, 77,0.6);
+    border-radius: 10px;
+    border:2px solid #222;
+    width: 50%;
+    margin: auto;
+    font: {
+        
+        family:'Dancing Script', cursive;
+
+        size:50px;
+    }
+
+}
+
+button[type=submit]{
+
+    font: {
+        
+        family:'Dancing Script', cursive;
+
+        size:22px;
+    }
+}
+
+
+color:#fff;
+}
+
+.onscreen{
+    display: block;
+}
+.offscreen{
+    display: none;
+}
+.disabled{
+
+    background-color: #f44336 !important;
+    color:#fff;
+}
+.enabled{
+
+    background-color: #1ABC9C !important;
+    color:#fff;
+}
+
+
